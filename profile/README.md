@@ -1,45 +1,39 @@
-# Awakened Weighted Sum | Organizational Manifesto
+# Awakened Weighted Sum
 
-## Mission Statement
-Awakened Weighted Sum is dedicated to engineering high-performance economic analysis tools for the Path of Exile ecosystem. We specialize in transforming raw market data into actionable insights, enabling traders to quantify value and capture market opportunities with mathematical precision.
+Awakened Weighted Sum builds tools for understanding and navigating the Path of Exile economy.
 
----
+The focus is on turning raw market data into clear, usable signals — numbers that help answer simple but important questions:  
+*Is this worth buying? Is this underpriced? Is this trade actually profitable?*
 
-## Core Principles
-
-### Data Integrity and Precision
-In a volatile virtual economy, accuracy is our highest priority. We believe that an analytical tool is only as valuable as the data it provides. Our systems are built to ensure that profit margins, weighted sums, and market trends are calculated with absolute fidelity to the source data.
-
-### Performance-First Engineering
-Market opportunities are often fleeting. We prioritize low-latency responses and efficient data processing. By implementing sophisticated caching layers and optimized algorithms, we ensure our users maintain a competitive edge in real-time environments.
-
-### Scalable Architecture
-We maintain a strict separation of concerns through a unified, type-safe architecture. By utilizing shared definitions across our entire stack, we ensure consistency, reduce technical debt, and facilitate the rapid deployment of new analytical features.
+Rather than presenting large dashboards or generic price lists, the tools aim to support real decision-making during active trading and crafting.
 
 ---
 
-## Strategic Methodologies
+## What It Does
 
-Our development efforts are centered around three primary profit-generation models:
+Awakened Weighted Sum provides analysis around item value, market movement, and trade efficiency.
 
-1. **Market Momentum Analysis (Market Dip):** Identifying and capturing value from short-term market inefficiencies and undervalued listings.
-2. **Liquidity Premiums (Bulk Flip):** Quantifying the added value of bulk availability and high-volume trade facilitation.
-3. **Advanced Valuation (Weighted Sum):** Utilizing complex stat-weighting to determine the intrinsic value of items, specifically for crafting outcomes and collection sets.
+This includes:
+- Highlighting short-term pricing inconsistencies and undervalued listings
+- Estimating value differences between single items and bulk availability
+- Evaluating items based on weighted stats, especially for crafted or set-based outcomes
 
----
-
-## Technical Standards
-
-### End-to-End Type Safety
-We utilize TypeScript throughout our ecosystem to eliminate runtime errors and ensure a robust contract between our data services and user interfaces.
-
-### Responsible API Citizenship
-We respect the infrastructure of official data providers. Our architecture is designed to minimize external load through intelligent server-side caching and efficient request management.
-
-### Modular Innovation
-We promote a culture of modularity. Core logic is centralized in shared libraries to ensure that an improvement in one area of the platform benefits the entire ecosystem.
+The intent is not to predict the market, but to quantify it.
 
 ---
 
-## Contribution and Excellence
-As an organization, we value collaborative problem-solving and rigorous peer review. We believe that the best tools are built through the intersection of deep domain knowledge of the Path of Exile economy and modern software engineering practices.
+## Who It’s For
+
+These tools are built for players who interact seriously with the Path of Exile economy:
+- Active traders looking for repeatable edges
+- Players crafting with intent rather than guessing
+- Anyone who prefers numbers and probabilities over intuition alone
+
+---
+
+## Philosophy
+
+The Path of Exile market is noisy, fast, and often inefficient.  
+Awakened Weighted Sum exists to reduce that noise.
+
+The emphasis is on clarity over complexity, usefulness over presentation, and measurable value over speculation.
